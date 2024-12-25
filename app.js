@@ -30,6 +30,7 @@ app.get("/", (req, res) => {
   res.send("welcome to root page:");
 });
 
+
 app.use("/ECEsem5",UserRouter);  
 
 app.listen(port, () => {
